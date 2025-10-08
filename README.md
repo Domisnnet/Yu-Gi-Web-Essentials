@@ -1,6 +1,6 @@
 # ✨ Yu-Gi-Oh! 🃏
 
-![Yu-gi-oh!](src/imagens/Capturar.PNG)
+![Yu-gi-oh!](src/imagens/yu-gi-oh.PNG)
 
 Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recriação estilizada da interface de exibição de cartas do popular jogo de cartas colecionáveis Yu-Gi-Oh!, com um toque personalizado.
 
