@@ -10,7 +10,7 @@ html, body {
 body {
     font-family: "Yugioh", serif;
     background-image: url(../imagens/fundo-site.jpg);
-	 background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), 
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
                       url(../imagens/fundo-site.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
