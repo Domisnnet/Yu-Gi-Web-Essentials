@@ -38,6 +38,7 @@ body {
 	padding: 12px;
     gap: 5px;
     position: absolute;
+	border-radius: 8px;
 }
 
 .cartao.selecionado {
@@ -66,7 +67,7 @@ body {
 	text-transform: uppercase;
 	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
 	border: 2px solid #a67c52;
-	border-radius: 10px;
+	border-radius: 8px;
 }
 
 .cartao .estrela {
@@ -88,6 +89,8 @@ body {
 .cartao .imagem-carta {
 	max-width: 260px;
 	align-self: center;
+	border-radius: 8px;
+	display: block;
 }
 
 .cartao .informacoes {
@@ -184,6 +187,7 @@ body::-webkit-scrollbar-track{
 
 .carta-virada {
 	display: none;
+	border-radius: 8px;
 }
 
 .carta-virada.mostrar-fundo-carta {
@@ -196,7 +200,6 @@ body::-webkit-scrollbar-track{
 	background-position: center;
 	top: 0;
 	left: 0;
-	border-radius: 10px;
 	z-index: 2;
 }
 
