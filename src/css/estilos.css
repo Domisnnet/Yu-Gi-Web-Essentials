@@ -1,13 +1,22 @@
+
+html, body {
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
 body {
-	font-family: "Yugioh", serif;
-	background-image: url(../imagens/fundo-site.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+    font-family: "Yugioh", serif;
+    background-image: url(../imagens/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    gap: 30px;
+	align-items: center;
+	box-sizing: border-box;
 }
 
 .cabecalho {
@@ -17,6 +26,7 @@ body {
 
 .cabecalho .titulo {
 	color: #f1ecff;
+	padding-top: 30px;
 }
 
 .cartao {
@@ -54,7 +64,7 @@ body {
 	text-transform: uppercase;
 	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
 	border: 2px solid #a67c52;
-	border-radius: 4px;
+	border-radius: 10px;
 }
 
 .cartao .estrela {
@@ -79,7 +89,7 @@ body {
 }
 
 .cartao .informacoes {
-	border-radius: 5px;
+	border-radius: 8px;
 	max-width: 300px;
 	color: #000000;
 	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
