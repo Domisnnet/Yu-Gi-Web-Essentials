@@ -1,21 +1,24 @@
 # ✨ Yu-Gi-Oh! 🃏
 
-![Yu-gi-oh!](src/imagens/yu-gi-oh.png)
+![Yu-gi-oh!](src/imagens/Capturar.PNG)
 
 Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recriação estilizada da interface de exibição de cartas do popular jogo de cartas colecionáveis Yu-Gi-Oh!, com um toque personalizado.
 
 ## 📚 Tabela de Conteúdo
 
-* [1. Estrutura do Projeto](#1-estrutura-do-projeto)
-* [2. Tecnologias Utilizadas](#2-tecnologias-utilizadas)
-* [3. Funcionalidades da Aplicação](#3-funcionalidades-da-aplicação)
-* [4. Como Visualizar o Projeto](#4-como-visualizar-o-projeto)
-* [5. Estrutura do HTML](#5-estrutura-do-html)
-* [6. Como a Interatividade Funciona (JavaScript)](#6-como-a-interatividade-funciona-javascript)
-* [7. Classes CSS e Design](#7-classes-css-e-design)
-* [8. Contribuindo para a Batalha!](#8-contribuindo-para-a-batalha)
-* [9. Perguntas Frequentes do Duelista](#9-perguntas-frequentes-do-duelista)
-* [Conclusão](#conclusão)
+- [✨ Yu-Gi-Oh! 🃏](#-yu-gi-oh-)
+  - [📚 Tabela de Conteúdo](#-tabela-de-conteúdo)
+  - [1. Estrutura do Projeto ⚙️](#1-estrutura-do-projeto-️)
+  - [2. Tecnologias Utilizadas ⚙️](#2-tecnologias-utilizadas-️)
+  - [3. Funcionalidades da Aplicação 🛠️](#3-funcionalidades-da-aplicação-️)
+  - [4. Como Usar 🚀](#4-como-usar-)
+  - [5. Estrutura do HTML: 💻](#5-estrutura-do-html-)
+  - [6. Como a Interatividade Funciona (JavaScript): 💻](#6-como-a-interatividade-funciona-javascript-)
+  - [7. Classes CSS e Design: 💻](#7-classes-css-e-design-)
+  - [8. 🤝 Contribuindo para a Batalha! 🃏](#8--contribuindo-para-a-batalha-)
+  - [9. 🤔 Perguntas Frequentes do Duelista](#9--perguntas-frequentes-do-duelista)
+  - [Licença](#licença)
+  - [Conclusão 📝](#conclusão-)
 
 ## 1. Estrutura do Projeto ⚙️
 
