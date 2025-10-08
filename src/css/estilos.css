@@ -39,6 +39,7 @@ body {
     gap: 5px;
     position: absolute;
 	border-radius: 8px;
+	padding-bottom: 10px;
 }
 
 .cartao.selecionado {
