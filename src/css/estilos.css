@@ -10,6 +10,8 @@ html, body {
 body {
     font-family: "Yugioh", serif;
     background-image: url(../imagens/fundo-site.jpg);
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), 
+                      url(../imagens/fundo-site.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -97,6 +99,7 @@ body {
 	text-align: left;
 	line-height: 1.5;
     padding: 5px;
+	border-radius: 8px;
 }
 
 .cartao .informacoes .informacoes-ataque {
