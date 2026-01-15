@@ -1,173 +1,145 @@
-# ✨ Yu-Gi-Oh! 🃏
+<h2 id="sobre-o-projeto">1. 🃏 Yu-Gi-Oh! - Deck Interativo 🃏</h2>
+
+![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
+![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blueviolet)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/yu-gi-oh/blob/main/LICENSE)
 
 ![Yu-gi-oh!](src/imagens/yu-gi-oh.png)
 
-Bem-vindo ao README interativo do projeto "Yu-Gi-Oh!". Este projeto é uma recriação estilizada da interface de exibição de cartas do popular jogo de cartas colecionáveis Yu-Gi-Oh!, com um toque personalizado.
+Bem-vindo ao **Yu-Gi-Oh! Deck Interativo**! Este projeto é uma recriação estilizada da interface de exibição de cartas do popular TCG, focada em proporcionar uma experiência imersiva para visualizar atributos, níveis e descrições das cartas clássicas com um toque de design moderno e responsivo.
+
+---
 
 ## 📚 Tabela de Conteúdo
 
-- [✨ Yu-Gi-Oh! 🃏](#-yu-gi-oh-)
-  - [📚 Tabela de Conteúdo](#-tabela-de-conteúdo)
-  - [1. Estrutura do Projeto ⚙️](#1-estrutura-do-projeto-️)
-  - [2. Tecnologias Utilizadas ⚙️](#2-tecnologias-utilizadas-️)
-  - [3. Funcionalidades da Aplicação 🛠️](#3-funcionalidades-da-aplicação-️)
-  - [4. Como Usar 🚀](#4-como-usar-)
-  - [5. Estrutura do HTML: 💻](#5-estrutura-do-html-)
-  - [6. Como a Interatividade Funciona (JavaScript): 💻](#6-como-a-interatividade-funciona-javascript-)
-  - [7. Classes CSS e Design: 💻](#7-classes-css-e-design-)
-  - [8. 🤝 Contribuindo para a Batalha! 🃏](#8--contribuindo-para-a-batalha-)
-  - [9. 🤔 Perguntas Frequentes do Duelista](#9--perguntas-frequentes-do-duelista)
-  - [Licença](#licença)
-  - [Conclusão 📝](#conclusão-)
-
-## 1. Estrutura do Projeto ⚙️
-
-Este projeto está organizado da seguinte forma:
-
-## 2. Tecnologias Utilizadas ⚙️
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
-</p>
-
-<p>
-  Este projeto foi desenvolvido usando:
-</p>
-
-<ul>
-    <li><strong>HTML5</strong>: Linguagem de marcação para a estrutura da página.</li>
-    <li><strong>CSS3</strong>: Linguagem de estilo para a apresentação visual da página.</li>
-    <li><strong>JavaScript</strong>: Linguagem de programação para adicionar interatividade à página.</li>
-</ul>
-
-## 3. Funcionalidades da Aplicação 🛠️
-
-Este projeto implementa as seguintes funcionalidades:
-
-*   **Slider de Cartas:** Navegue por uma lista de cartas usando botões de seta (voltar e avançar).
-*   **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela, incluindo dispositivos móveis e tablets.
-*   **Interatividade:** Utiliza JavaScript para controlar a navegação do slider e a seleção da carta.
-*   **Estilização Personalizada:** Apresenta um visual único inspirado no universo Yu-Gi-Oh!, criado com CSS.
-
-## 4. Como Usar 🚀
-
-Clique no botão abaixo para acessar:
-
-<a href="https://domisnnet.github.io/yu-gi-oh/" target="_blank" rel="noopener noreferrer">
-   <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Acessar">
-</a>
-
-## 5. Estrutura do HTML: 💻
-
-O HTML está estruturado da seguinte forma:
-
-*   **`<header>`**: Contém o título do projeto.
-*   **`<main class="slider">`**: Contém o slider de cartas e os botões de navegação.
-    *   **`<button class="btn-seta btn-voltar" id="btn-voltar">`**: Botão para navegar para a carta anterior.
-    *   **`<ul class="lista-personagens">`**: Lista de cartas.
-        *   **`<li class="cartao ...">`**: Cada carta é um item da lista, com classes que indicam seu fundo (`fundo-1`, `fundo-2`, etc.) e se está selecionada (`selecionado`).
-            *   **`<div class="carta-virada">`**: Elemento visual para simular a parte de trás da carta.
-            *   **`<h2 class="nome">`**: Nome da carta.
-            *   **`<div class="nivel-carta">`**: Representação visual do nível da carta usando estrelas.
-            *   **`<img class="imagem-carta" ...>`**: Imagem da carta.
-            *   **`<div class="informacoes">`**: Contém informações sobre a carta.
-                *   **`<p class="descricao">`**: Descrição da carta.
-                *   **`<div class="informacoes-ataque">`**: Ataque e defesa da carta.
-    *   **`<button class="btn-seta btn-avancar" id="btn-avancar">`**: Botão para navegar para a próxima carta.
-*   **`<script src="src/js/index.js"></script>`**: Link para o arquivo JavaScript que implementa a interatividade.
-
-## 6. Como a Interatividade Funciona (JavaScript): 💻
-
-O arquivo `src/js/index.js` contém a lógica para:
-
-*   **Selecionar a carta ativa:** Mantém um registro de qual carta está selecionada.
-*   **Navegação:** Permite a navegação entre as cartas usando os botões de seta, atualizando a classe `selecionado` da carta ativa.
-
-## 7. Classes CSS e Design: 💻
-
-Os arquivos CSS proporcionam o estilo da página:
-
-*   `estilos.css`: Estilo geral do projeto, incluindo o slider, botões, layout da carta, etc.
-*   `fontes.css`: Define as fontes utilizadas no projeto.
-*   `reset.css`: Reseta os estilos padrão do navegador para garantir consistência entre diferentes navegadores.
-*   `responsivo.css`: Ajustes para diferentes tamanhos de tela.
-
-## 8. 🤝 Contribuindo para a Batalha! 🃏
-
-<p style="font-size: 1.1em; font-style: italic;">
-  "O coração das cartas guiará sua contribuição."
-</p>
-
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; border: 2px solid #222;">
-    <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; text-align: center;">
-      <span style="display:inline-block; margin-right: 5px;"> 👐 </span> Siga os passos para fortalecer este deck:
-    </p>
-    <ul style="list-style-type: none; padding: 0; margin: 0;">
-      <li style="margin-bottom: 10px;">
-           <span style="font-weight: bold; color: #1c7430;">1. 🍴 <a href="https://github.com/Domisnnet/yu-gi-oh/fork" target="_blank" style="color: #1c7430; text-decoration: underline;">Faça um fork</a>:</span> Adicione este projeto ao seu deck.
-      </li>
-      <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas cartas. <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Branches</a>
-      </li>
-      <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">3. ✍️ Prepare seus commits:</span> Guarde suas mudanças. <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Commits</a>
-      </li>
-     <li style="margin-bottom: 10px;">
-          <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie suas cartas:</span> Lance seu ataque (`git push origin minha-contribuicao`).
-      </li>
-      <li>
-           <span style="font-weight: bold; color: #1c7430;">5. ⚔️ <a href="https://github.com/Domisnnet/yu-gi-oh/compare" target="_blank" style="color: #1c7430; text-decoration: underline;">Abra um Pull Request</a>:</span> Desafie este deck original.
-      </li>
-      <li>
-           <span style="font-weight: bold; color: #1c7430;">6. 🐛 <a href="https://github.com/Domisnnet/yu-gi-oh/issues" target="_blank" style="color: #1c7430; text-decoration: underline;">Reportar um problema/Sugestão (Issues)</a></span>
-      </li>
-    </ul>
-</div>
-
-## 9. 🤔 Perguntas Frequentes do Duelista
-
-**Pergunta 1:** O que é este projeto?
-
-   **Resposta:** Este projeto é um clone interativo de cartas do jogo Yu-Gi-Oh!, desenvolvido utilizando HTML, CSS e JavaScript. Ele apresenta uma interface de "slideshow" onde você pode navegar por diferentes cartas com descrições e atributos.
-
-**Pergunta 2:** Como funciona o sistema de cartas?
-
-   **Resposta:** O projeto exibe uma lista de cartas, cada uma com:
-    * Um nome (título)
-    * Uma imagem da carta
-    * Uma quantidade de estrelas representando o nível da carta.
-    * Uma descrição da carta, com sua história.
-    * Seus atributos de ataque (ATK) e defesa (DEF).
-
-**Pergunta 3:** Posso usar este projeto como base para meus projetos?
-
-   **Resposta:** Sim, o código está disponível no GitHub e você pode usá-lo como base para seus projetos, lembrando de dar os créditos apropriados.
-
-**Pergunta 4:** Como posso entrar em contato com o desenvolvedor?
-
-   **Resposta:** Você pode entrar em contato através do perfil do GitHub: 
-
-<a href="https://github.com/Domisnnet">
-    <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
-    DomisDev
-</a> 
+| 🃏 O Projeto | 🛠️ Técnico | 🤝 Comunidade |
+| :---: | :---: | :---: |
+| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![9. Código](https://img.shields.io/badge/9%20-%20Código-795548)](#codigo-fonte) |
+| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Repositório](https://img.shields.io/badge/6%20-%20Repo-009688)](#codigo-fonte) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#créditos) |
+| [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca) |
+| [![4. Funções](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#funcionalidades) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Perfil](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
 
 ---
-## Licença
 
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+<h2 id="tecnologias-utilizadas">2. ⚙️ Tecnologias Utilizadas</h2>
 
+| Camada | Tecnologias | Descrição |
+| :--- | :--- | :--- |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Estrutura semântica e estilização inspirada no design do jogo. |
+| **Lógica** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Gerenciamento de estado do slider e interatividade de seleção. |
+| **Assets** | ![Fonts](https://img.shields.io/badge/Custom-Fonts-orange?style=flat-square) | Tipografia personalizada para fidelidade visual ao universo Yu-Gi-Oh!. |
 
-## Conclusão 📝
+---
 
+<h2 id="como-acessar">3. 🚀 Como Acessar</h2>
 
-Este README interativo fornece uma visão geral completa do projeto "Clone Yu-Gi-Oh!". Ao seguir as instruções e explorar os arquivos, você será capaz de compreender a estrutura e o funcionamento do projeto. Sinta-se à vontade para explorar e modificar este projeto!
+Clique no botão abaixo para iniciar o seu duelo e navegar pelo deck diretamente no seu navegador:
 
-**Links Úteis:**
+<div align="left">
+  <a href="https://domisnnet.github.io/yu-gi-oh/" target="_blank">
+    <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
+  </a>
+</div>
 
-* [Documentação HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-* [Documentação CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* [Documentação JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+---
 
-Aproveite a experiência interativa com Yu-gi-oh! ✨🃏
+<h2 id="funcionalidades">4. 🧩 Funcionalidades Principais</h2>
+
+O projeto replica a mecânica de visualização de cartas com fluidez:
+
+| Funcionalidade | Descrição |
+| :--- | :--- |
+| 🔄 **Slider de Cartas** | Navegação lateral intuitiva através de botões de seta customizados. |
+| ⭐ **Nível Visual** | Renderização dinâmica do nível da carta através de ícones de estrelas. |
+| 🛡️ **Atributos ATK/DEF** | Exibição clara das estatísticas de batalha de cada monstro. |
+| 📱 **Layout Responsivo** | Adaptação completa da "arena" de visualização para Mobile e Tablets. |
+| 🎨 **Efeito de Seleção** | Destaque visual e troca de classes CSS para a carta ativa no slider. |
+
+---
+
+<h2 id="destaques-tecnicos">5. 💻 Destaques Técnicos</h2>
+
+A construção deste deck focou na manipulação precisa do DOM e organização de estilos:
+
+### 📐 Gerenciamento de Classes
+Uso de JavaScript para alternar a classe `.selecionado` dinamicamente, permitindo que as transições de opacidade e escala no CSS criem o efeito de foco na carta central.
+
+### 🔄 Reset e Flexibilidade
+Utilização de um arquivo `reset.css` para garantir consistência entre navegadores e `responsivo.css` para reestruturar o slider em telas menores, mantendo a integridade das proporções das cartas.
+
+---
+
+<h2 id="codigo-fonte">6. 📂 Repositório</h2>
+
+Deseja analisar a estrutura do deck ou clonar para seus próprios duelos? Explore o repositório oficial:
+
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2Fyu--gi--oh-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/yu-gi-oh)
+
+---
+
+<h2 id="como-contribuir">7. 🤝 Como Contribuir</h2>
+
+Siga os passos abaixo para fortalecer este projeto:
+
+| Fase | Ação | Link / Comando |
+| :---: | :--- | :--- |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/yu-gi-oh/fork) |
+| **02** | **Branch** | `git checkout -b feature/NovaCarta` |
+| **03** | **Commit** | `git commit -m 'feat: adição do Mago Negro ao deck'` |
+| **04** | **Push** | `git push origin feature/NovaCarta` |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/yu-gi-oh/compare) |
+
+---
+
+<h2 id="faq">8. 🧠 Perguntas Frequentes do Duelista</h2>
+
+<details>
+<summary><strong>Como as estrelas de nível são geradas ❓</strong></summary>
+<p>⭐ <strong>Resposta:</strong> Cada carta possui uma <code>div.nivel-carta</code> que contém uma lista de imagens de estrelas. A quantidade é definida estaticamente no HTML para cada carta, seguindo a regra oficial do jogo.</p>
+</details>
+
+<details>
+<summary><strong>O slider é infinito ❓</strong></summary>
+<p>🔄 <strong>Resposta:</strong> Atualmente a navegação para quando o usuário chega na primeira ou última carta. Uma funcionalidade futura prevista é o loop infinito para facilitar a navegação rápida.</p>
+</details>
+
+<details>
+<summary><strong>Posso usar as classes de fundo para outras cartas ❓</strong></summary>
+<p>🎨 <strong>Resposta:</strong> Com certeza. O CSS foi modularizado com classes como <code>fundo-1</code>, <code>fundo-2</code>, etc., permitindo reaproveitar as cores e gradientes em novos elementos.</p>
+</details>
+
+---
+
+<h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
+
+Explore a estrutura de lógica e design diretamente:
+
+[![Código](https://img.shields.io/badge/Código%20Fonte-Acessar-795548?style=for-the-badge&logo=github)](https://github.com/Domisnnet/yu-gi-oh/tree/main/src)
+
+---
+
+<h2 id="créditos">10. 📝 Créditos & Reconhecimentos</h2>
+
+O projeto Yu-Gi-Oh! é uma homenagem ao icônico universo criado por Kazuki Takahashi:
+
+| Atribuição | Responsável / Recurso | Descrição |
+| :--- | :--- | :--- |
+| **Dev & Design** | **DomisDev** | Implementação da lógica do slider e estilização responsiva. |
+| **Criação Original** | **Konami / Kazuki Takahashi** | Inspiração de marca, artes das cartas e mecânicas visuais. |
+| **Documentação** | **MDN Web Docs** | Guia técnico para as linguagens fundamentais (HTML/CSS/JS). |
+| **Apoio Técnico** | **Google Gemini** | Suporte na organização de documentação e padronização. |
+
+### 🎯 Missão do Projeto
+> "Este projeto visa demonstrar como a manipulação de listas e classes CSS pode criar interfaces temáticas ricas, servindo de estudo para desenvolvedores que buscam unir lógica de programação a identidades visuais marcantes."
+
+---
+
+<h2 id="licenca">11. 📄 Licença</h2>
+
+Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/yu-gi-oh/blob/main/LICENSE)
+
+---
+
+<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
+
+<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
