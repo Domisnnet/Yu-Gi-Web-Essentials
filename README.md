@@ -103,7 +103,7 @@ Siga os passos abaixo para fortalecer este projeto:
 ### 🐛 Encontrou um problema?
 Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
-[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Yu-Gi?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Yu-Gi-Web-Essentials/issues)
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Yu?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Yu-Gi-Web-Essentials/issues)
 [![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Yu-Gi-Web-Essentials/issues/new)
 
 ---
@@ -131,7 +131,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Explore a estrutura de lógica e design diretamente:
 
-[![Código](https://img.shields.io/badge/Código%20Fonte-Acessar-795548?style=for-the-badge&logo=github)](https://github.com/Domisnnet/yu-gi-oh/tree/main/src)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FYu--Gi--Web--Essentials-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://domisnnet.github.io/Yu-Gi-Web-Essentials/)
 
 ---
 
@@ -160,5 +160,5 @@ Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badg
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
 <a href="https://github.com/Domisnnet"> 
-  <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> 
+  <img src="src/imagens/DomisDev.png" width="90" alt="Acessar perfil GitHub"> 
 </a>
